@@ -8,6 +8,13 @@ Code based on Testing in Node.js by Gabriel Manricks (Nettuts+)
 	npm install -g mocha
 	npm install chai
 
+### To run unit tests:
+
+	Open command prompt and type
+		mocha
+
+	Tip: Use 'mocha -w' to run the tests automatically when a file is changed.
+
 ### To run/debug tags.js:
 
 	1. Create calling module, for example:
@@ -33,5 +40,6 @@ Code based on Testing in Node.js by Gabriel Manricks (Nettuts+)
 	3. ... or debug it with 
 		node debug main.js
 
-### Links
+### Links:
+
 - [Testing in Node.js](http://net.tutsplus.com/tutorials/javascript-ajax/testing-in-node-js/) by Gabriel Manricks (Nettuts+)
