@@ -40,6 +40,22 @@ Code based on Testing in Node.js by Gabriel Manricks (Nettuts+)
 	3. ... or debug it with 
 		node debug main.js
 
+	Tip: Use node-inspector for debugging
+		# install node inspector
+		npm install -g node-inspector
+
+		# run it and visit suggested link to debug 'http://127.0.0.1:8080/debug?port=5858' in Chrome
+		node-inspector
+
+		# run the code you want to debug and refresh the browser
+		node --debug-brk app.js -dq=".js" -p=./lib
+
+
 ### Links:
 
 - [Testing in Node.js](http://net.tutsplus.com/tutorials/javascript-ajax/testing-in-node-js/) by Gabriel Manricks (Nettuts+)
+- [Node.js debugger](https://github.com/node-inspector/node-inspector) based on Blink Developer Tools
+- [40+ Resources for the Node.js Developer](http://architects.dzone.com/articles/40-resources-nodejs-developer)
+
+- [nodejs snippets and bindings for Sublime Text 2](https://github.com/tanepiper/SublimeText-Nodejs)
+- [node-inspector](https://github.com/node-inspector/node-inspector)
